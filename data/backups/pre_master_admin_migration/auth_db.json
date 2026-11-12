@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "USR-SUPER-ADMIN-01",
+      "email": "waqaspos.admin@gmail.com",
+      "secondaryEmails": [
+        "muhammedsaad255251@gmail.com",
+        "waqas.admin@gmail.com"
+      ],
+      "fullName": "Muhammad Waqas",
+      "phone": "03429634133",
+      "whatsapp": "03228570782",
+      "role": "SUPER_ADMIN",
+      "passwordSalt": "603b199307ea1b0946d8d557d924073d",
+      "passwordHash": "abb37064532cdd8891e52d4e8f6ed3334711a7c467408a068702f786e8ffd788",
+      "mustChangePasswordOnFirstLogin": false,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "USR-SHOP-001",
+      "email": "waqasmart.pos@gmail.com",
+      "secondaryEmails": [],
+      "fullName": "Muhammad Waqas",
+      "phone": "03429634133",
+      "whatsapp": "03228570782",
+      "role": "SHOP_OWNER",
+      "shopId": "SHOP-WM-001",
+      "passwordSalt": "e7c28375bbafd073121dc65f35036cc6",
+      "passwordHash": "d1d4a3c804cee64f0dc968cbbfca82612cddc9b21bc15582a8550a7a8c72ede2",
+      "mustChangePasswordOnFirstLogin": false,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "sessions": {
+    "ST-SA-c4a97d089923fcb8739da7f75e66c7c00cde46fc969cb1ba": {
+      "token": "ST-SA-c4a97d089923fcb8739da7f75e66c7c00cde46fc969cb1ba",
+      "userId": "USR-SUPER-ADMIN-01",
+      "email": "waqaspos.admin@gmail.com",
+      "role": "SUPER_ADMIN",
+      "createdAt": 1793871940463,
+      "expiresAt": 1794476740463,
+      "ip": "127.0.0.1"
+    },
+    "ST-SA-4a0a4bb0dd3d131116169b0718680d39dadecf062d730612": {
+      "token": "ST-SA-4a0a4bb0dd3d131116169b0718680d39dadecf062d730612",
+      "userId": "USR-SUPER-ADMIN-01",
+      "email": "waqaspos.admin@gmail.com",
+      "role": "SUPER_ADMIN",
+      "createdAt": 1793873492068,
+      "expiresAt": 1794478292068,
+      "ip": "127.0.0.1"
+    },
+    "ST-SO-21c3c3483e0a53bc9fedf44c3b0424735a199067f84e1147": {
+      "token": "ST-SO-21c3c3483e0a53bc9fedf44c3b0424735a199067f84e1147",
+      "userId": "USR-SHOP-001",
+      "email": "waqasmart.pos@gmail.com",
+      "role": "SHOP_OWNER",
+      "shopId": "SHOP-WM-001",
+      "createdAt": 1793873517637,
+      "expiresAt": 1794478317637,
+      "ip": "127.0.0.1"
+    }
+  },
+  "failedAttempts": {}
+}

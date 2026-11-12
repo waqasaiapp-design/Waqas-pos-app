@@ -1,0 +1,15 @@
+[
+  {
+    "deviceId": "DEV-PRIMARY-TERMINAL",
+    "sessionToken": "TOKEN-PRIMARY-TERMINAL-ROOT",
+    "deviceName": "Main Store Windows Terminal",
+    "deviceType": "Windows PC",
+    "browser": "Chrome / Desktop",
+    "os": "Windows 11 / 10",
+    "isCurrentDevice": false,
+    "firstRegistered": "25/10/2026",
+    "lastActive": "11:49 am",
+    "status": "active",
+    "connectionState": "online"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "products": [],
+  "transactions": [],
+  "purchases": [],
+  "customers": [],
+  "customerLedgers": [],
+  "saleReturns": [],
+  "suppliers": [
+    {
+      "id": "supp-mtraders",
+      "name": "M. Traders (Karachi)",
+      "phone": "0300-9876543",
+      "city": "Karachi",
+      "address": "Jodia Bazaar, Karachi",
+      "payableBalance": 0
+    },
+    {
+      "id": "supp-alrehman",
+      "name": "Al-Rehman Wholesalers (Lahore)",
+      "phone": "0321-4567890",
+      "city": "Lahore",
+      "address": "Akbari Mandi, Lahore",
+      "payableBalance": 0
+    },
+    {
+      "id": "supp-national",
+      "name": "National Distributors",
+      "phone": "0333-1122334",
+      "city": "Rawalpindi",
+      "address": "Ganj Mandi, Rawalpindi",
+      "payableBalance": 0
+    }
+  ],
+  "heldBills": [],
+  "branding": {
+    "storeName": "WAQAS MART",
+    "primaryName": "WAQAS",
+    "accentName": "MART",
+    "subtitle": "Supermarket Management",
+    "themeColor": "#00a859",
+    "headerBannerText": "Quality Products • Better Life",
+    "sidebarPromoTitle": "Small Steps Big Dreams",
+    "sidebarPromoBadge": "WAQAS MART",
+    "bottomBannerTitle": "Fresh Products Everyday",
+    "bottomBannerSubtitle": "Best Quality • Lowest Prices",
+    "terminalDeviceId": "WM-001"
+  },
+  "userProfile": {
+    "id": "USR-MASTER-OWNER",
+    "displayName": "Waqas Ahmad",
+    "email": "muhammedsaad255251@gmail.com",
+    "phone": "+92 300 1234567",
+    "role": "Owner / Super Admin",
+    "createdAt": "26/10/2026"
+  },
+  "martOwner": {
+    "martName": "WAQAS MART",
+    "badge": "MART OWNER",
+    "ownerName": "Fatima Bibi",
+    "designation": "Proprietor & Manager",
+    "mobileNumber": "03228570782",
+    "whatsappNumber": "03228570782",
+    "address": "Commercial Market, Multan, Pakistan",
+    "photoUrl": "/assets/aistudio/female_owner_portrait.svg"
+  }
+}

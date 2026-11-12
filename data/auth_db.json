@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": "USR-SHOP-001",
+      "email": "waqasmart.pos@gmail.com",
+      "secondaryEmails": [],
+      "fullName": "Muhammad Waqas",
+      "phone": "03429634133",
+      "whatsapp": "03228570782",
+      "role": "SHOP_OWNER",
+      "shopId": "SHOP-WM-001",
+      "passwordSalt": "e7c28375bbafd073121dc65f35036cc6",
+      "passwordHash": "d1d4a3c804cee64f0dc968cbbfca82612cddc9b21bc15582a8550a7a8c72ede2",
+      "mustChangePasswordOnFirstLogin": false,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "sessions": {
+    "ST-SO-21c3c3483e0a53bc9fedf44c3b0424735a199067f84e1147": {
+      "token": "ST-SO-21c3c3483e0a53bc9fedf44c3b0424735a199067f84e1147",
+      "userId": "USR-SHOP-001",
+      "email": "waqasmart.pos@gmail.com",
+      "role": "SHOP_OWNER",
+      "shopId": "SHOP-WM-001",
+      "createdAt": 1793873517637,
+      "expiresAt": 1794478317637,
+      "ip": "127.0.0.1"
+    }
+  },
+  "failedAttempts": {}
+}

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#062147"/>
+      <stop offset="50%" stop-color="#0a356b"/>
+      <stop offset="100%" stop-color="#034538"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fcd8c4"/>
+      <stop offset="100%" stop-color="#e8b99d"/>
+    </linearGradient>
+    <linearGradient id="hijabGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f5945"/>
+      <stop offset="50%" stop-color="#0b4535"/>
+      <stop offset="100%" stop-color="#062b21"/>
+    </linearGradient>
+    <linearGradient id="dressGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14365d"/>
+      <stop offset="100%" stop-color="#091d33"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Studio Background -->
+  <rect width="400" height="480" fill="url(#bgGrad)"/>
+  <circle cx="200" cy="180" r="140" fill="#10b981" opacity="0.12" filter="blur(20px)"/>
+  
+  <!-- Subtle Supermarket POS Background Ambience -->
+  <rect x="30" y="320" width="340" height="140" rx="16" fill="#000" opacity="0.2"/>
+
+  <!-- Female Mart Owner Portrait Graphic -->
+  <!-- Shoulders & Coat / Dress -->
+  <path d="M70,480 C70,390 120,340 200,340 C280,340 330,390 330,480 Z" fill="url(#dressGrad)" filter="url(#shadow)"/>
+  
+  <!-- Scarf / Dupatta / Neckline with Elegant Emerald Green & Gold Trim -->
+  <path d="M110,480 C110,380 150,330 200,330 C250,330 290,380 290,480 Z" fill="url(#hijabGrad)"/>
+  <path d="M170,360 L200,420 L230,360 Z" fill="#fcd8c4"/>
+  <path d="M196,410 L200,430 L204,410 Z" fill="url(#goldGrad)"/>
+
+  <!-- Neck -->
+  <path d="M175,270 L175,340 C185,346 215,346 225,340 L225,270 Z" fill="url(#skinGrad)"/>
+
+  <!-- Hair / Hijab Wrap Profile -->
+  <ellipse cx="200" cy="205" rx="82" ry="95" fill="url(#hijabGrad)" filter="url(#shadow)"/>
+
+  <!-- Face Shape -->
+  <ellipse cx="200" cy="215" rx="55" ry="68" fill="url(#skinGrad)"/>
+
+  <!-- Subtle Hair Framing Face -->
+  <path d="M148,190 C155,160 180,150 200,150 C220,150 245,160 252,190 C235,170 215,165 200,165 C185,165 165,170 148,190 Z" fill="#2d1c16"/>
+
+  <!-- Eyebrows -->
+  <path d="M165,195 Q178,188 190,193" stroke="#2c1a11" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M210,193 Q222,188 235,195" stroke="#2c1a11" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes -->
+  <ellipse cx="178" cy="207" rx="7" ry="4.5" fill="#2c1a11"/>
+  <circle cx="176" cy="205" r="1.8" fill="#ffffff"/>
+  <ellipse cx="222" cy="207" rx="7" ry="4.5" fill="#2c1a11"/>
+  <circle cx="220" cy="205" r="1.8" fill="#ffffff"/>
+
+  <!-- Eyelashes -->
+  <path d="M170,204 Q178,200 186,204" stroke="#1f140e" stroke-width="2" fill="none"/>
+  <path d="M214,204 Q222,200 230,204" stroke="#1f140e" stroke-width="2" fill="none"/>
+
+  <!-- Nose -->
+  <path d="M198,208 L196,228 Q200,233 204,228" stroke="#d59a7a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Cheeks Blush -->
+  <ellipse cx="166" cy="226" rx="10" ry="6" fill="#f472b6" opacity="0.25"/>
+  <ellipse cx="234" cy="226" rx="10" ry="6" fill="#f472b6" opacity="0.25"/>
+
+  <!-- Professional Pleasant Smile (Lips) -->
+  <path d="M185,246 Q200,256 215,246 Q200,250 185,246 Z" fill="#db2777"/>
+  <path d="M187,246 Q200,253 213,246" stroke="#9d174d" stroke-width="1.2" fill="none"/>
+
+  <!-- Gold Brooch / Badge -->
+  <circle cx="140" cy="385" r="14" fill="url(#goldGrad)" filter="url(#shadow)"/>
+  <circle cx="140" cy="385" r="10" fill="#047857"/>
+  <path d="M136,385 L139,388 L145,382" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Professional Badge Overprint -->
+  <rect x="60" y="435" width="280" height="34" rx="17" fill="#021733" opacity="0.9" stroke="url(#goldGrad)" stroke-width="1.5"/>
+  <text x="200" y="457" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="900" text-anchor="middle" letter-spacing="1">
+    WAQAS MART • MART OWNER
+  </text>
+</svg>

@@ -1,0 +1,33 @@
+# ====================================================================
+# WAQAS POS SOFTWARE - Production Apache & cPanel Configuration
+# Supports SPA Client-Side Routing and API Reverse Proxy
+# ====================================================================
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 1. Reverse Proxy /api/* to local Node.js backend if running on port 3000
+  <IfModule mod_proxy.c>
+    RewriteCond %{REQUEST_URI} ^/api/ [NC]
+    RewriteRule ^api/(.*)$ http://127.0.0.1:3000/api/$1 [P,L]
+  </IfModule>
+
+  # 2. Existing files and directories are served directly
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # 3. SPA Fallback: All other routes are rewritten to index.html
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# Security and CORS Headers
+<IfModule mod_headers.c>
+  Header set Access-Control-Allow-Origin "*"
+  Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS, PATCH"
+  Header set Access-Control-Allow-Headers "Origin, X-Requested-With, Content-Type, Accept, Authorization, x-device-id"
+</IfModule>
+
+# Prevent directory indexing
+Options -Indexes

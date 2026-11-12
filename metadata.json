@@ -1,0 +1,6 @@
+{
+  "name": "WAQAS MART - Supermarket Sale POS",
+  "description": "Responsive Point of Sale Web App for Waqas Mart with product search, barcode scanner, cart quantity controls, Pakistani Rupee calculations, Cash/Card/Credit checkout, and receipt generation.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

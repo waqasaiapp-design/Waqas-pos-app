@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "WAQAS MART - Supermarket Management & POS",
+  "short_name": "WAQAS MART",
+  "description": "Multi-Device Supermarket POS, Real-Time Inventory, Sales, and Udhar Ledger Management for WAQAS MART.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#057a44",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "finance", "productivity"]
+}

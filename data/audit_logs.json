@@ -1,0 +1,57 @@
+[
+  {
+    "id": "AUD-1793873517637-73f454",
+    "timestamp": "2026-11-05T10:11:57.638Z",
+    "action": "SHOP_OWNER_LOGIN_SUCCESS",
+    "actorEmail": "waqasmart.pos@gmail.com",
+    "actorRole": "SHOP_OWNER",
+    "details": "Shop Owner logged in for WAQAS MART (Main Branch) (SHOP-WM-001)",
+    "shopId": "SHOP-WM-001",
+    "ipAddress": "127.0.0.1"
+  },
+  {
+    "id": "AUD-1793873496111-966f73",
+    "timestamp": "2026-11-05T10:11:36.111Z",
+    "action": "SHOP_OWNER_LOGIN_FAILED",
+    "actorEmail": "waqasmart.pos@gmail.com",
+    "actorRole": "SHOP_OWNER",
+    "details": "Failed Shop Owner login attempt for waqasmart.pos@gmail.com from IP 127.0.0.1",
+    "shopId": "SHOP-WM-001",
+    "ipAddress": "127.0.0.1"
+  },
+  {
+    "id": "AUD-1793873492069-8b85f1",
+    "timestamp": "2026-11-05T10:11:32.069Z",
+    "action": "SUPER_ADMIN_LOGIN_SUCCESS",
+    "actorEmail": "waqaspos.admin@gmail.com",
+    "actorRole": "SUPER_ADMIN",
+    "details": "Super Admin logged in successfully",
+    "ipAddress": "127.0.0.1"
+  },
+  {
+    "id": "AUD-1793871945730-de5ab2",
+    "timestamp": "2026-11-05T09:45:45.730Z",
+    "action": "SUPER_ADMIN_LOGIN_FAILED",
+    "actorEmail": "wrong@gmail.com",
+    "actorRole": "SUPER_ADMIN",
+    "details": "Failed Super Admin login attempt from IP 127.0.0.1",
+    "ipAddress": "127.0.0.1"
+  },
+  {
+    "id": "AUD-1793871940463-dbd7cd",
+    "timestamp": "2026-11-05T09:45:40.463Z",
+    "action": "SUPER_ADMIN_LOGIN_SUCCESS",
+    "actorEmail": "waqaspos.admin@gmail.com",
+    "actorRole": "SUPER_ADMIN",
+    "details": "Super Admin logged in successfully",
+    "ipAddress": "127.0.0.1"
+  },
+  {
+    "id": "AUD-1793871288141-001",
+    "timestamp": "2026-11-05T09:34:48.141Z",
+    "action": "SYSTEM_INITIALIZED",
+    "actorEmail": "waqaspos.admin@gmail.com",
+    "actorRole": "SUPER_ADMIN",
+    "details": "WAQAS POS SOFTWARE Super Admin security system initialized successfully."
+  }
+]

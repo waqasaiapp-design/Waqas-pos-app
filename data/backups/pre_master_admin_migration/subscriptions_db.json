@@ -1,0 +1,70 @@
+{
+  "shops": [
+    {
+      "id": "SHOP-WM-001",
+      "shopName": "WAQAS MART (Main Branch)",
+      "ownerName": "Muhammad Waqas",
+      "email": "waqasmart.pos@gmail.com",
+      "phone": "03429634133",
+      "whatsapp": "03228570782",
+      "address": "Main Commercial Market, Pakistan",
+      "status": "active",
+      "plan": "12_months",
+      "startDate": "2026-01-01",
+      "expiryDate": "2027-01-01",
+      "pricing": {
+        "oneMonth": 1500,
+        "threeMonths": 4000,
+        "sixMonths": 7500,
+        "twelveMonths": 14000,
+        "customPricePerMonth": 1500,
+        "lastUpdated": "2026-10-24"
+      },
+      "initialPayment": 14000,
+      "remainingBalance": 0,
+      "totalPaid": 14000,
+      "totalIncome": 14000,
+      "renewalsCount": 1,
+      "mustChangePasswordOnFirstLogin": false,
+      "createdAt": "2026-01-01"
+    }
+  ],
+  "payments": [
+    {
+      "id": "PAY-1001",
+      "receiptNumber": "RCP-9821",
+      "shopId": "SHOP-WM-001",
+      "shopName": "WAQAS MART (Main Branch)",
+      "ownerName": "Muhammad Waqas",
+      "ownerEmail": "waqasmart.pos@gmail.com",
+      "plan": "12_months",
+      "durationLabel": "12 Months (1 Year)",
+      "totalAmount": 14000,
+      "discount": 0,
+      "finalAmount": 14000,
+      "amountPaid": 14000,
+      "remainingBalance": 0,
+      "paymentMethod": "Bank Transfer",
+      "paymentDate": "2026-01-01",
+      "transactionReference": "TRX-PKR-00192",
+      "confirmedBy": "Muhammad Waqas (Super Admin)",
+      "status": "Paid",
+      "createdAt": "2026-01-01T10:00:00Z"
+    }
+  ],
+  "renewals": [
+    {
+      "id": "REN-1001",
+      "shopId": "SHOP-WM-001",
+      "shopName": "WAQAS MART (Main Branch)",
+      "plan": "12_months",
+      "durationDays": 365,
+      "previousExpiry": "2026-01-01",
+      "newExpiry": "2027-01-01",
+      "paymentReceiptNumber": "RCP-9821",
+      "amount": 14000,
+      "renewedAt": "2026-01-01",
+      "confirmedBy": "Muhammad Waqas"
+    }
+  ]
+}

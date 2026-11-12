@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-y: none;
+  }
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #f0fdf4;
+    color: #0f172a;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Universal smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.7);
+}
+
+.font-urdu {
+  font-family: 'Noto Nastaliq Urdu', 'Plus Jakarta Sans', sans-serif;
+  line-height: 1.8;
+}
+
+/* Print receipt styling */
+@media print {
+  body * {
+    visibility: hidden !important;
+  }
+  #printable-receipt, #printable-receipt * {
+    visibility: visible !important;
+  }
+  #printable-receipt {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 78mm !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 10px !important;
+    font-family: 'Courier New', Courier, monospace !important;
+    font-size: 11px !important;
+    color: #000 !important;
+    background: #fff !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
